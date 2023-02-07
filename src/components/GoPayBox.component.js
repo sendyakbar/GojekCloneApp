@@ -99,7 +99,8 @@ export default function GoPayBox() {
 
 const styles = StyleSheet.create({
   container: {
-    margin: 16,
+    marginTop: 16,
+    marginHorizontal: 16,
     paddingHorizontal: 12,
     backgroundColor: colors.GOPAY_COLOR,
     borderRadius: 18,

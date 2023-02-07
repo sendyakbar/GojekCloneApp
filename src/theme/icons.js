@@ -15,4 +15,12 @@ export const icon = {
   iconTopup: require('../assets/icons/icon_topup.png'),
   iconPay: require('../assets/icons/icon_pay.png'),
   iconExplore: require('../assets/icons/icon_explore.png'),
+  iconGoride: require('../assets/icons/icon_goride.png'),
+  iconGocar: require('../assets/icons/icon_gocar.png'),
+  iconGofood: require('../assets/icons/icon_gofood.png'),
+  iconGosend: require('../assets/icons/icon_gosend.png'),
+  iconGomart: require('../assets/icons/icon_gomart.png'),
+  iconGotagihan: require('../assets/icons/icon_gotagihan.png'),
+  iconGopaylater: require('../assets/icons/icon_gopaylater.png'),
+  iconMore: require('../assets/icons/icon_more.png'),
 };

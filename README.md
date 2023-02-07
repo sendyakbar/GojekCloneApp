@@ -7,14 +7,12 @@
 
 ## How to run
 
+Run on android device/emulator
 ```
 yarn android
 ```
 
-Run on android device/emulator
-
+Run on ios device/emulator
 ```
 yarn ios
 ```
-
-Run on ios device/emulator

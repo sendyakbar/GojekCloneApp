@@ -1,6 +1,7 @@
 import React from 'react';
 import {StyleSheet, ScrollView} from 'react-native';
 import BannerCarousel from '../components/BannerCarousel.component';
+import FoodprintsSlider from '../components/FoodprintsSlider.component';
 
 import GoPayBox from '../components/GoPayBox.component';
 import MainMenu from '../components/MainMenu.component';
@@ -84,6 +85,12 @@ export default function HomeScreen() {
               'https://lelogama.go-jek.com/post_featured_image/supe_app_header_1.jpg',
           },
         ]}
+      />
+      <FoodprintsSlider />
+      <PromoCard
+        imageUri="https://lelogama.go-jek.com/post_featured_image/Consumer_Trends_Blog_Banner_1.jpg"
+        title="Kebutuhan apa aja, pasti ada!"
+        description="Kamu butuh sesuatu, GoMart antar gak pake ntar-ntar. Klik!"
       />
     </ScrollView>
   );

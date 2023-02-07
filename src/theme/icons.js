@@ -24,4 +24,6 @@ export const icon = {
   iconGopaylater: require('../assets/icons/icon_gopaylater.png'),
   iconMore: require('../assets/icons/icon_more.png'),
   iconVoucherBox: require('../assets/icons/icon_voucherbox.png'),
+  iconVoucher: require('../assets/icons/icon_voucher.png'),
+  iconResto: require('../assets/icons/icon_resto.png'),
 };

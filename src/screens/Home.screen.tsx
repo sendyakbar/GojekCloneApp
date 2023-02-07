@@ -3,6 +3,7 @@ import {StyleSheet, ScrollView} from 'react-native';
 
 import GoPayBox from '../components/GoPayBox.component';
 import MainMenu from '../components/MainMenu.component';
+import TreasureBox from '../components/TreasureBox.component';
 import {colors} from '../theme/colors';
 
 export default function HomeScreen() {
@@ -10,6 +11,7 @@ export default function HomeScreen() {
     <ScrollView contentContainerStyle={styles.container} nestedScrollEnabled>
       <GoPayBox />
       <MainMenu />
+      <TreasureBox />
     </ScrollView>
   );
 }

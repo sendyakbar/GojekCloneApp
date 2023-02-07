@@ -7,4 +7,6 @@ export const icon = {
   iconOrderInactive: require('../assets/icons/icon_order_inactive.png'),
   iconChatActive: require('../assets/icons/icon_chat_active.png'),
   iconChatInactive: require('../assets/icons/icon_chat_inactive.png'),
+  iconSearch: require('../assets/icons/icon_search.png'),
+  iconUser: require('../assets/icons/icon_user.png'),
 };

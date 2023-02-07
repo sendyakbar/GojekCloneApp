@@ -1,19 +1,16 @@
 import React from 'react';
 import {StatusBar} from 'react-native';
-import {Colors} from 'react-native/Libraries/NewAppScreen';
 import RootNavigator from './src/navigation/Root.navigator';
 import {NavigationContainer} from '@react-navigation/native';
 
-function App() {
-  const backgroundStyle = {
-    backgroundColor: Colors.darker,
-  };
+import {colors} from './src/theme/colors';
 
+function App() {
   return (
     <NavigationContainer>
       <StatusBar
         barStyle="light-content"
-        backgroundColor={backgroundStyle.backgroundColor}
+        backgroundColor={colors.BRAND_COLOR}
       />
       <RootNavigator />
     </NavigationContainer>

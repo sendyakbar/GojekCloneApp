@@ -23,6 +23,25 @@ export default function HomeScreen() {
           },
         ]}
       />
+      <BannerCarousel
+        title="gojek"
+        subtitle="Belanja makin hemat"
+        description="Dapetin diskon dan harga spesialnya di Tokopedia sekarang sebelum kehabisan!"
+        data={[
+          {
+            imageUri:
+              'https://lelogama.go-jek.com/post_featured_image/Consumer_Trends_Blog_Banner_1.jpg',
+          },
+          {
+            imageUri:
+              'https://1.bp.blogspot.com/--T4z8RjiFAw/YUC_YQTGdqI/AAAAAAAACzE/mSbSMMQ92iM4Z2HUHjpf3IVlPDii8eB8ACLcBGAsYHQ/w0/gosend.webp',
+          },
+          {
+            imageUri:
+              'https://lelogama.go-jek.com/post_featured_image/supe_app_header_1.jpg',
+          },
+        ]}
+      />
     </ScrollView>
   );
 }

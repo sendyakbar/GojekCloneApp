@@ -83,7 +83,7 @@ export default function MainBottomTab(props) {
             testID={options.tabBarTestID}
             onPress={onPress}
             onLongPress={onLongPress}
-            style={styles.item}>
+            style={styles.item(isFocused)}>
             {isFocused ? <View style={styles.marker} /> : null}
             <Image source={iconGenerator()} style={styles.itemIcon} />
             <Text style={styles.labelText(isFocused)}>{label}</Text>
@@ -108,11 +108,12 @@ const styles = StyleSheet.create({
     elevation: 14,
     overflow: 'hidden',
   },
-  item: {
+  item: isFocused => ({
     flex: 1,
     alignItems: 'center',
     paddingVertical: 12,
-  },
+    backgroundColor: isFocused ? colors.TAB_BAR_BACKGROUND : null,
+  }),
   marker: {
     width: '100%',
     height: 6,

@@ -4,12 +4,13 @@ import HomeScreen from '../screens/Home.screen';
 import ChatScreen from '../screens/Chat.screen';
 import OrdersScreen from '../screens/Orders.screen';
 import PromosScreen from '../screens/Promos.screen';
+import MainBottomTab from '../components/MainBottomTab.component';
 
 const Tab = createBottomTabNavigator();
 
 export default function RootNavigator() {
   return (
-    <Tab.Navigator>
+    <Tab.Navigator tabBar={MainBottomTab}>
       <Tab.Screen
         name="Home"
         component={HomeScreen}

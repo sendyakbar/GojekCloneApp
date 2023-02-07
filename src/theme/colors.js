@@ -3,4 +3,5 @@ export const colors = {
   BLACK: 'rgba(0, 0, 0, 1)',
   WHITE: 'rgba(255, 255, 255, 1)',
   TAB_BAR_BACKGROUND: 'rgba(245,250,246,255)',
+  GOPAY_COLOR: 'rgba(0, 129, 160, 1)',
 };

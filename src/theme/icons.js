@@ -9,4 +9,10 @@ export const icon = {
   iconChatInactive: require('../assets/icons/icon_chat_inactive.png'),
   iconSearch: require('../assets/icons/icon_search.png'),
   iconUser: require('../assets/icons/icon_user.png'),
+  iconGopay: require('../assets/icons/icon_gopay.png'),
+  iconGopaylater2: require('../assets/icons/icon_gopaylater_2.png'),
+  iconGopaycoins: require('../assets/icons/icon_gopaycoins.png'),
+  iconTopup: require('../assets/icons/icon_topup.png'),
+  iconPay: require('../assets/icons/icon_pay.png'),
+  iconExplore: require('../assets/icons/icon_explore.png'),
 };

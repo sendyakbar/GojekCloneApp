@@ -1,19 +1,20 @@
 import React from 'react';
-import {StyleSheet, View, Text} from 'react-native';
+import {StyleSheet, ScrollView} from 'react-native';
+
+import GoPayBox from '../components/GoPayBox.component';
+import {colors} from '../theme/colors';
 
 export default function HomeScreen() {
   return (
-    <View style={styles.container}>
-      <Text>Home Screen</Text>
-    </View>
+    <ScrollView contentContainerStyle={styles.container} nestedScrollEnabled>
+      <GoPayBox />
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: 'white',
-    justifyContent: 'center',
-    alignItems: 'center',
+    flexGrow: 1,
+    backgroundColor: colors.WHITE,
   },
 });

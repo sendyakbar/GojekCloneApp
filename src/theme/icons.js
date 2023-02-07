@@ -27,4 +27,5 @@ export const icon = {
   iconVoucher: require('../assets/icons/icon_voucher.png'),
   iconResto: require('../assets/icons/icon_resto.png'),
   iconGojek: require('../assets/icons/icon_gojek.png'),
+  iconGopayCircle: require('../assets/icons/icon_gopay_circle.png'),
 };

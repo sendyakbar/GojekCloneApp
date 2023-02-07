@@ -38,7 +38,8 @@ const styles = StyleSheet.create({
     shadowRadius: 2.22,
     elevation: 3,
     borderRadius: 18,
-    marginTop: 16,
+    marginTop: 8,
+    marginBottom: 8,
   },
   image: {
     width: '100%',

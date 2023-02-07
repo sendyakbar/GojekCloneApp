@@ -10,18 +10,17 @@ import {
 } from 'react-native';
 
 import {colors} from '../theme/colors';
-import {icon} from '../theme/icons';
 
 const {width: deviceWidth} = Dimensions.get('window');
 
 export default function BannerCarousel(props) {
-  const {data, title, subtitle, description} = props;
+  const {data, titleIcon, title, subtitle, description} = props;
 
   return (
     <View>
       {!!title && (
         <View style={styles.titleRow}>
-          <Image source={icon.iconGojek} style={styles.titleIcon} />
+          <Image source={titleIcon} style={styles.titleIcon} />
           <Text style={styles.titleText}>{title}</Text>
         </View>
       )}
@@ -32,7 +31,9 @@ export default function BannerCarousel(props) {
       )}
       {!!description && (
         <View style={styles.descRow}>
-          <Text style={styles.descText}>{description}</Text>
+          <Text style={styles.descText} numberOfLines={2}>
+            {description}
+          </Text>
         </View>
       )}
       <FlatList

@@ -8,6 +8,7 @@ import MenuSlider from '../components/MenuSlider.component';
 import PromoCard from '../components/PromoCard.component';
 import TreasureBox from '../components/TreasureBox.component';
 import {colors} from '../theme/colors';
+import {icon} from '../theme/icons';
 
 export default function HomeScreen() {
   return (
@@ -25,6 +26,7 @@ export default function HomeScreen() {
         ]}
       />
       <BannerCarousel
+        titleIcon={icon.iconGojek}
         title="gojek"
         subtitle="Belanja makin hemat"
         description="Dapetin diskon dan harga spesialnya di Tokopedia sekarang sebelum kehabisan!"
@@ -62,6 +64,26 @@ export default function HomeScreen() {
         imageUri="https://lelogama.go-jek.com/post_featured_image/supe_app_header_1.jpg"
         title="Cashback 75% GoPay dari GoSend!"
         description="Masukin kode GOSENDHEMAT dan dapatkan Cashback 75% GoPay Coins. Yuk, GoSend-in sekarang!"
+      />
+      <BannerCarousel
+        titleIcon={icon.iconGopayCircle}
+        title="gopay"
+        subtitle="Spesial Untuk Pencari Voucher"
+        description="Mulai Dari 9 Ribu, Dapatkan Voucher GoCar, GoRide, GoPulsa, GoTagihan, PLN hingga QRIS Hemat Hingga 900 Ribuan! Cek Sekarang"
+        data={[
+          {
+            imageUri:
+              'https://lelogama.go-jek.com/post_featured_image/Consumer_Trends_Blog_Banner_1.jpg',
+          },
+          {
+            imageUri:
+              'https://lelogama.go-jek.com/cms_editor/2021/04/14/top-banner-2-ID.jpg',
+          },
+          {
+            imageUri:
+              'https://lelogama.go-jek.com/post_featured_image/supe_app_header_1.jpg',
+          },
+        ]}
       />
     </ScrollView>
   );

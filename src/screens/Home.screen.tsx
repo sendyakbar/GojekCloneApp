@@ -1,5 +1,6 @@
 import React from 'react';
 import {StyleSheet, ScrollView} from 'react-native';
+import BannerCarousel from '../components/BannerCarousel.component';
 
 import GoPayBox from '../components/GoPayBox.component';
 import MainMenu from '../components/MainMenu.component';
@@ -14,6 +15,14 @@ export default function HomeScreen() {
       <MainMenu />
       <TreasureBox />
       <MenuSlider />
+      <BannerCarousel
+        data={[
+          {
+            imageUri:
+              'https://lelogama.go-jek.com/cms_editor/2021/04/14/top-banner-1-ID.jpg',
+          },
+        ]}
+      />
     </ScrollView>
   );
 }

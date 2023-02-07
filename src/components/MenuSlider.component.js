@@ -61,7 +61,8 @@ const styles = StyleSheet.create({
   container: {
     paddingRight: 16,
     paddingLeft: 6,
-    paddingVertical: 16,
+    paddingTop: 16,
+    paddingBottom: 8,
   },
   itemContainer: {
     width: deviceWidth * 0.55,
